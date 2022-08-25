@@ -14,6 +14,11 @@
 		F4017A89273282D200B6CBD5 /* UberClone_IOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4017A87273282D200B6CBD5 /* UberClone_IOS.xcdatamodeld */; };
 		F4017A8B273282DB00B6CBD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4017A8A273282DB00B6CBD5 /* Assets.xcassets */; };
 		F4017A8E273282DB00B6CBD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4017A8C273282DB00B6CBD5 /* LaunchScreen.storyboard */; };
+		F4017A97273284AA00B6CBD5 /* StartupPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4017A96273284AA00B6CBD5 /* StartupPageController.swift */; };
+		F4017A9B2732942400B6CBD5 /* StartupPageController+UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4017A9A2732942400B6CBD5 /* StartupPageController+UIExtension.swift */; };
+		F4017A9F2732BF9400B6CBD5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4017A9E2732BF9400B6CBD5 /* Extensions.swift */; };
+		F4017AA32732CCB600B6CBD5 /* PhoneNumberController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4017AA22732CCB600B6CBD5 /* PhoneNumberController.swift */; };
+		F4017AA62732CD9400B6CBD5 /* PhoneNumberController+UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4017AA52732CD9400B6CBD5 /* PhoneNumberController+UIExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		F4017A8A273282DB00B6CBD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4017A8D273282DB00B6CBD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4017A8F273282DB00B6CBD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4017A96273284AA00B6CBD5 /* StartupPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupPageController.swift; sourceTree = "<group>"; };
+		F4017A9A2732942400B6CBD5 /* StartupPageController+UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StartupPageController+UIExtension.swift"; sourceTree = "<group>"; };
+		F4017A9E2732BF9400B6CBD5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F4017AA22732CCB600B6CBD5 /* PhoneNumberController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberController.swift; sourceTree = "<group>"; };
+		F4017AA52732CD9400B6CBD5 /* PhoneNumberController+UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhoneNumberController+UIExtension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,8 @@
 		F4017A7D273282D200B6CBD5 /* UberClone-IOS */ = {
 			isa = PBXGroup;
 			children = (
+				F4017AA12732CC9800B6CBD5 /* PhoneNumberController */,
+				F4017A992732940F00B6CBD5 /* StartupPageController */,
 				F4017A7E273282D200B6CBD5 /* AppDelegate.swift */,
 				F4017A80273282D200B6CBD5 /* SceneDelegate.swift */,
 				F4017A82273282D200B6CBD5 /* ViewController.swift */,
@@ -66,8 +78,27 @@
 				F4017A8C273282DB00B6CBD5 /* LaunchScreen.storyboard */,
 				F4017A8F273282DB00B6CBD5 /* Info.plist */,
 				F4017A87273282D200B6CBD5 /* UberClone_IOS.xcdatamodeld */,
+				F4017A9E2732BF9400B6CBD5 /* Extensions.swift */,
 			);
 			path = "UberClone-IOS";
+			sourceTree = "<group>";
+		};
+		F4017A992732940F00B6CBD5 /* StartupPageController */ = {
+			isa = PBXGroup;
+			children = (
+				F4017A96273284AA00B6CBD5 /* StartupPageController.swift */,
+				F4017A9A2732942400B6CBD5 /* StartupPageController+UIExtension.swift */,
+			);
+			path = StartupPageController;
+			sourceTree = "<group>";
+		};
+		F4017AA12732CC9800B6CBD5 /* PhoneNumberController */ = {
+			isa = PBXGroup;
+			children = (
+				F4017AA22732CCB600B6CBD5 /* PhoneNumberController.swift */,
+				F4017AA52732CD9400B6CBD5 /* PhoneNumberController+UIExtension.swift */,
+			);
+			path = PhoneNumberController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,10 +171,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4017A9B2732942400B6CBD5 /* StartupPageController+UIExtension.swift in Sources */,
 				F4017A83273282D200B6CBD5 /* ViewController.swift in Sources */,
+				F4017A97273284AA00B6CBD5 /* StartupPageController.swift in Sources */,
 				F4017A7F273282D200B6CBD5 /* AppDelegate.swift in Sources */,
 				F4017A81273282D200B6CBD5 /* SceneDelegate.swift in Sources */,
+				F4017AA62732CD9400B6CBD5 /* PhoneNumberController+UIExtension.swift in Sources */,
+				F4017AA32732CCB600B6CBD5 /* PhoneNumberController.swift in Sources */,
 				F4017A89273282D200B6CBD5 /* UberClone_IOS.xcdatamodeld in Sources */,
+				F4017A9F2732BF9400B6CBD5 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

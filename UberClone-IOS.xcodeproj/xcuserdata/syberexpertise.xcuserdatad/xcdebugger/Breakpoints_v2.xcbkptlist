@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A0445FA0-0A6B-49D4-8661-66694093088F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3B9BB7C-D3C4-45E3-A2B5-BA4E840A9A78"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UberClone-IOS/StartupPageController/StartupPageController+UIExtension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "anchorViews()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C3B9BB7C-D3C4-45E3-A2B5-BA4E840A9A78 - 989acdb1bb3c0982"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Bool) -&gt; () in UberClone_IOS.StartupPageController.anchorViews() -&gt; ()"
+                  moduleName = "UberClone-IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/syberexpertise/Desktop/CODING/UberClone-IOS/UberClone-IOS/StartupPageController/StartupPageController+UIExtension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "97">
+               </Location>
+               <Location
+                  uuid = "C3B9BB7C-D3C4-45E3-A2B5-BA4E840A9A78 - 989acdb1bb3c0982"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Bool) -&gt; () in UberClone_IOS.StartupPageController.anchorViews() -&gt; ()"
+                  moduleName = "UberClone-IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/syberexpertise/Desktop/CODING/UberClone-IOS/UberClone-IOS/StartupPageController/StartupPageController+UIExtension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "278">
+               </Location>
+               <Location
+                  uuid = "C3B9BB7C-D3C4-45E3-A2B5-BA4E840A9A78 - 879e71a56eaa64b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #2 (Swift.Bool) -&gt; () in UberClone_IOS.StartupPageController.anchorViews() -&gt; ()"
+                  moduleName = "UberClone-IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/syberexpertise/Desktop/CODING/UberClone-IOS/UberClone-IOS/StartupPageController/StartupPageController+UIExtension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "284">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
